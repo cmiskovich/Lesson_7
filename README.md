@@ -40,7 +40,9 @@ The second part you pull the daily returns for all four data sets and create a d
 
 The final part of the project was to deploy the notebook as a web application using Voila libray and it is attached below.
 
-[Voila](/Voila_Lesson_7.mov)
+
+
+[![Voila]]([https://youtu.be/T-D1KVIuvjA](https://youtu.be/PSxz_AhPqgA))
 
 
 
