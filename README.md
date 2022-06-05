@@ -46,7 +46,7 @@ The final part of the project was to deploy the notebook as a web application us
 
 
 
-[![Watch the video]]((https://youtu.be/PSxz_AhPqgA))
+[![Watch the video]](([https://youtu.be/PSxz_AhPqgA](https://youtu.be/PSxz_AhPqgA)))
 
 
 
