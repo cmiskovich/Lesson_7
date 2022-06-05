@@ -42,11 +42,11 @@ The final part of the project was to deploy the notebook as a web application us
 
 
 
-[![Voila]]([https://youtu.be/T-D1KVIuvjA](https://youtu.be/PSxz_AhPqgA))
 
 
 
 
+[![Watch the video]]((https://youtu.be/PSxz_AhPqgA))
 
 
 
