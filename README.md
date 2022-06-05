@@ -1,7 +1,7 @@
 # Lesson_7
 # Primary application file
 
-Produce a Jupyter notebook A Jupyter notebook that contains your analysis of the housing rental market data for San Francisco. The analysis will be complete with professionally styled and formatted interactive visualizations.
+Produce a Jupyter notebook A Jupyter notebook that contains analysis of an exchange traded fund (ETF) analyzyer. The analysis will be complete with professionally styled and formatted interactive visualizations. As well as deploy the notebook as a web application using teh Voilia library.
 
 
 
@@ -34,35 +34,53 @@ Jupyter Lab
 
 ## General information about analysis.
 
-The visualization shows with a deeper blue the better gross rent in neighborhoods in the San Francisco area.  If you compare the price per square foot versusee the gross rent you can find the best neighborhoods to purchase properties for rentals.
+The firts part of the project you pull only the pay pal data set and create a dataframe to visualize daily returns and then cumulative returns for pay pal.  The cumulative retruns shows a slight increase from 2017 to 2020. In the beginning of 2020 you see a drop but then a very strong rise in the cumulative returns for pay pal.  The next two steps involve pulling close amounts for pay pal over $200 and the top ten daily returns for pay pal.
+
+The second part you pull the daily returns for all four data sets and create a dataframe showing four coulmns of results.  You then get the average daily returns for the four datasets and create the etf_portfolio_returns dataset.  After that you annualize the returns and then produce a cumulative return dataset that you then create a visualization for the cumulative amounts.  The cumulative amounts are similiar to the pay pal visualizaiton.  Slight rise in 2017 and 2018 then fairly stable for 2019 with a drop early in 2020 followed by a sharp increase.
+
+The final part of the project was to deploy the notebook as a web application using Voila libray and it is attached below.
+
+
+
+
+
+
+
+
 
 ---
 
 ## Information about datasets
 
-csv file showing year neighborhood sale price per square foot housing units and gross rent:
+etf database contains four datasets:
 
-sfo_data_df
+GDOT, GS, PYPL, SQ
 
-Mean housing units per year:
+Data frame containing pay pal information:
 
-housing_units_by_year
+pypl_dataframe 
 
-Group the data by year and average the results using mean:
+Paypal close prices higher than 200:
 
-prices_square_foot_by_year
+pypl_higher_than_200
 
-Dataframe that groups year and neighborhood by the mean of the groups:
+Top ten return values for Pay Pal:
 
-prices_by_year_by_neighborhood
+pypl_top_10_returns
 
-Neighborhood coordinates:
+Daily returns for all 4 data sets:
 
-neighborhood_locations_df
+etf_portfolio
 
-Using original sfo_data_df dataframe create a dataframe that groups results by mean:
+Average returns for the four datasets:
 
-all_neighborhood_info_df
+etf_portfolio_returns
+
+Cumulative returns of the four datasets:
+
+etf_cumulative_returns
+
+
 
 
 
@@ -73,9 +91,11 @@ all_neighborhood_info_df
 
 pandas
 
+numpy
+
 hvplot
 
-Path
+SQLalchemy
 
 
 
